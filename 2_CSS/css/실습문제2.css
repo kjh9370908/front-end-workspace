@@ -1,0 +1,22 @@
+.container #nav #header {
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+#a {
+  background-color: red;
+  display: inline-block;
+  height: 100vh;
+  text-align: center;
+  align-items: sbaseline;
+}
+#ab {
+  background-color: purple;
+  height: 100vh;
+  text-align: center;
+}
+#ac {
+  background-color: yellow;
+  height: 100vh;
+  text-align: center;
+}
