@@ -1,6 +1,15 @@
-.container #nav #header {
-  justify-content: space-around;
-  flex-direction: column;
+header {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: cener;
+}
+header h1 {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 #a {
@@ -8,7 +17,6 @@
   display: inline-block;
   height: 100vh;
   text-align: center;
-  align-items: sbaseline;
 }
 #ab {
   background-color: purple;
@@ -19,4 +27,49 @@
   background-color: yellow;
   height: 100vh;
   text-align: center;
+  display: flex;
+}
+header nav a {
+  background-color: white;
+  color: black;
+}
+
+section {
+  background-color: red;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+#section1 {
+  background-color: red;
+}
+#section2 {
+  background-color: purple;
+}
+#section3 {
+  background-color: yellow;
+}
+section h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+section p {
+  line-height: 1.5;
+}
+.top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: black;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

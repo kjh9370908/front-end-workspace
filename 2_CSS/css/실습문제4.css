@@ -1,0 +1,18 @@
+body {
+  background-color: darkblue;
+  background: linear-gradient(black, blue);
+  height: 100vh;
+}
+.square-container {
+  width: 10px;
+  height: 30px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#square-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

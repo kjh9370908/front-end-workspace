@@ -1,0 +1,13 @@
+header {
+  position: fixed;
+  height: 100vh;
+  background-image: url(../../resources/background.jpg);
+  width: 20vh;
+}
+.content {
+  padding-left: 20vh;
+}
+
+nav {
+  align-content: space-between;
+}
