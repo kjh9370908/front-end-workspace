@@ -1,33 +1,33 @@
 <!DOCTYPE html>
-< lang="en">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/04_텍스트스타일.css" />
-  </head>
-
-  <body>
-    <h2>font-family</h2>
-    <p>웹 페이지에서 사용할 글꼴을 지정하는 속성</p>
-    <!-- p#ff${글꼴 테스트 font style test $}*4 -->
-    <p id="ff1">글꼴 테스트 font style test 1</p>
-    <p id="ff2">글꼴 테스트 font style test 2</p>
-    <p id="ff3">글꼴 테스트 font style test 3</p>
-    <p id="ff4">글꼴 테스트 font style test 4</p>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Gugi&display=swap"
       rel="stylesheet"
     />
+  </head>
+  <body>
+    <h2>font-family</h2>
+    <p>웹 페이지에서 사용할 글꼴을 지정하는 속성</p>
+    <!-- p#ff${글꼴 테스트 Font Style Test $}*4 -->
+    <p id="ff1">글꼴 테스트 Font Style Test 1</p>
+    <p id="ff2">글꼴 테스트 Font Style Test 2</p>
+    <p id="ff3">글꼴 테스트 Font Style Test 3</p>
+    <p id="ff4">글꼴 테스트 Font Style Test 4</p>
+
     <h2>font-weight</h2>
     <p>글자의 굵기를 조절하는 속성</p>
     <p>원래 굵기</p>
     <!-- p#fw$*3 -->
     <p id="fw1">굵은 글꼴로 변경</p>
-    <p id="fw2">원래 굵기 보다 더 굵게</p>
-    <p id="fw3">원래 굵기 보다 더 가늘게</p>
+    <p id="fw2">원래 굵기보다 더 굵게</p>
+    <p id="fw3">원래 굵기보다 더 가늘게</p>
 
     <h2>font-size</h2>
     <p>글자의 크기를 지정하는 속성</p>
@@ -41,7 +41,12 @@
     <h2>font-style</h2>
     <p>글자를 이탤릭체로 표시하도록 지정하는 속성</p>
     <p id="fs5">italic 기울임 글꼴</p>
-    <p id="fs6">oblique 기울임 글꼴</p>
+    <p id="fs6">oblique 원래글자를 기울임 글꼴</p>
+
+    <h2>font-variant</h2>
+    <p>영어의 작은 대문자를 지정할 수 있는 속성</p>
+    <p>HELLO CSS</p>
+    <p id="fv">hello css</p>
 
     <h2>font</h2>
     <p>글꼴 스타일 속성을 한 번에 지정할 수 있는 속성</p>
@@ -50,8 +55,8 @@
 
     <h2>color</h2>
     <p>
-      -글자의 색을 지정하는 속성<br />
-      -색을 지정하는 방법은 영문 색이름 표기법, 16진수 표기법, rgb/rhba 표기법,
+      - 글자의 색을 지정하는 속성<br />
+      - 색을 지정하는 방법은 영문 색이름 표기법, 16진수 표기법, rgb/rgba 표기법,
       hsl/hsla 표기법이 있다.
     </p>
     <p id="c-name">색상명으로 지정</p>
@@ -61,26 +66,27 @@
 
     <h2>text-decoration</h2>
     <p>글자에 밑줄/윗선을 긋거나 취소선을 긋는 속성</p>
-    <p id="td1">underline: 글자에 밑줄을 긋는다.</p>
-    <p id="td2">overline: 글자 위에 선을 긋는다.</p>
-    <p id="td3">line-through: 취소선을 긋는다.</p>
+    <p id="td1">underline : 글자에 밑줄을 긋는다.</p>
+    <p id="td2">overline : 글자 위에 선을 긋는다.</p>
+    <p id="td3">line-through : 취소선을 긋는다.</p>
     <a href="" id="td4">none : 글자에 선을 긋지 않는다.</a>
 
     <h2>text-transform</h2>
     <p>영문자를 표시할 때 대소문자를 원하는 대로 바꿀 수 있는 속성</p>
     <p id="tt1">uppercase : 모든 영문자 다 대문자로</p>
-    <p id="tt2">lowercase : 모든 영문자 다 소문자로</p>
+    <p id="tt2">LOWERCASE : 모든 영문자 다 소문자로</p>
     <p id="tt3">capitalize : 영문자의 첫글자만 대문자로</p>
+
     <h2>text-shadow</h2>
     <p>
-      텍스트에 그림자를 지정 <br />
-      -여러개 지정 가능(","로 구분)
+      - 텍스트에 그림자를 지정<br />
+      - 여러 개 지정 가능(","로 구분)
     </p>
-    html
-    <p class="shadow" id="ts2">html</p>
-    <p class="shadow" id="ts3">html</p>
+    <p class="shadow" id="ts1">HTML</p>
+    <p class="shadow" id="ts2">HTML</p>
+    <p class="shadow" id="ts3">HTML</p>
 
-    <h2>white-apace</h2>
+    <h2>white-space</h2>
     <p id="whs">여러 개의 공백을 처리하는 방법을 지정하는 속성</p>
 
     <h2>letter-spacing</h2>
@@ -94,60 +100,64 @@
 
     <h3>왼쪽 정렬 (기본값)</h3>
     <p id="ta1">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima adipisci,
-      repudiandae nam facere voluptate nesciunt temporibus totam unde vel sunt
-      incidunt excepturi ut inventore voluptas veritatis accusantium quidem
-      dignissimos praesentium!
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident esse
+      tempore quia, tempora, dolorum quod explicabo animi odit, voluptate totam
+      deleniti. Dolore, est magnam sequi saepe reiciendis quidem debitis fugiat.
     </p>
     <h3>오른쪽 정렬</h3>
     <p id="ta2">
-        <p id="ta1">
-            <h3>가운데 정렬</h3>
-        </p>
-        <p id="ta3">
-            양쪽 정렬
-        </p>
-      Impedit aut non ex amet accusantium aliquam quidem, dignissimos delectus
-      magnam! Odit, placeat expedita reiciendis a natus sint eaque porro nobis
-      hic perferendis omnis quia? Facere voluptates asperiores voluptas
-      consequuntur.
+      Velit facere blanditiis tempore et veritatis autem eveniet dolore,
+      reprehenderit officia culpa quis hic, enim magnam corrupti, architecto
+      quidem! Cumque nulla commodi perferendis corporis laborum, odio dolorem
+      dolores repellendus est.
     </p>
+    <h3>가운데 정렬</h3>
     <p id="ta3">
-      Hic provident saepe odit amet debitis modi laborum. Amet deleniti ullam
-      possimus quibusdam rerum delectus odio ipsam nostrum, rem modi nulla
-      veritatis! Vel magnam ut accusantium, deleniti doloremque consectetur
-      officia?
+      Quia perferendis consectetur provident? Consectetur ipsum est molestiae,
+      porro ut blanditiis dolore optio officiis. Voluptate maiores voluptatem id
+      ab debitis quasi repudiandae eligendi suscipit ex qui inventore, aliquam
+      deleniti labore.
     </p>
+    <h3>양쪽 정렬</h3>
     <p id="ta4">
-      Nihil commodi voluptate ex laudantium. Itaque, labore reprehenderit alias
-      laboriosam maxime deserunt nulla consectetur ea neque esse perferendis est
-      omnis, in minima architecto. Nemo repellendus odit similique. Molestias,
-      dignissimos repellat.
+      Obcaecati accusantium ut ipsam adipisci est ad quas suscipit animi ea?
+      Iusto molestias, unde aspernatur facilis odio fugiat beatae magni?
+      Molestiae officia nemo dicta cupiditate provident ea inventore doloremque
+      sequi.
     </p>
 
     <h2>text-indent</h2>
-<p id="ti">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic iure perferendis sed tempora velit, cupiditate fuga, nisi, repellat neque non voluptate repudiandae minima animi recusandae dolorem ratione et harum itaque?
-</p>  
-<h2>line</h2>
+    <p>문장을 들여쓰기 하는 속성</p>
+    <p id="ti">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic consectetur
+      inventore cum modi fugiat molestias quasi quod odio dolor quia facilis
+      temporibus exercitationem, minima ex atque placeat dolore saepe debitis.
+    </p>
 
-<h2>text-overflow</h2>
-<p>영역을 벗어나는 텍스트에 대한 상태를 지정하는 속성</p>
+    <h2>line-height</h2>
+    <p>문장의 줄 간격을 조정하는 속성</p>
+    <p id="lh">
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
+      voluptates deserunt totam. Blanditiis, nam perferendis eaque deserunt vel
+      et consectetur iure dolor optio pariatur dolores ipsam sapiente quam
+      provident. Cum.
+    </p>
 
-<h2>list-style</h2>
-<ul></ul>
-</body>
-<ul
+    <h2>text-overflow</h2>
+    <p>영역을 벗어나는 텍스트에 대한 상태를 지정하는 속성</p>
+    <p id="to">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi deleniti
+      animi quam autem temporibus veritatis veniam ad distinctio. Ad fugiat
+      deserunt laudantium tenetur voluptatem rem nobis perferendis magnam
+      provident accusamus.
+    </p>
 
-
-
-
-
-
-
-
-
-
-
-
-html>
+    <h2>list-style</h2>
+    <ul>
+      <li>list 1</li>
+      <li>list 2</li>
+      <li>list 3</li>
+      <li>list 4</li>
+    </ul>
+  </body>
+</html>

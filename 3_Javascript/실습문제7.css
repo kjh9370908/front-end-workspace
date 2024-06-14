@@ -8,7 +8,6 @@ img {
   border-radius: 50%;
   margin: 15px;
 }
-
 button {
   cursor: pointer;
   font-size: 1.2rem;
@@ -18,12 +17,12 @@ button {
   border-radius: 5px;
 }
 #click {
-  background-color: pink;
+  background-color: hotpink;
   color: navy;
 }
 #restart {
   background-color: navy;
-  color: pink;
+  color: hotpink;
 }
 #result {
   font-size: 1.4rem;

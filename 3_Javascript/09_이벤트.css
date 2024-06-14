@@ -26,7 +26,7 @@
 .container img:nth-child(4) {
   bottom: 0;
   left: 0;
-  animation: moving2 2s infinite alternate-reverse;
+  animation: moving3 2s infinite alternate-reverse;
 }
 .container img:nth-child(5) {
   top: 50%;
@@ -42,7 +42,7 @@
 }
 @keyframes moving2 {
   to {
-    transform: translate(-400px);
+    transform: translateX(-400px);
   }
 }
 @keyframes moving3 {

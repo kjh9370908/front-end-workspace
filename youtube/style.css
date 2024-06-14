@@ -10,15 +10,15 @@ header {
   display: flex;
 }
 .header-start i {
-  font-size: 20vg;
+  font-size: 20px;
   margin: 20px;
 }
-.header-start svg {
+.header-start a {
   padding: 20px 10px;
 }
 .header-center {
   flex: 1;
-  background-color: white;
+  display: flex;
   justify-content: flex-end;
   align-items: center;
 }
@@ -50,6 +50,7 @@ main aside {
   width: 55px;
 }
 main aside a {
+  height: 55px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,9 +61,6 @@ main aside a i {
 }
 main aside a span {
   font-size: 0.8rem;
-}
-main .main-content {
-  padding-left: 55px;
 }
 main nav {
   position: fixed;
@@ -85,21 +83,18 @@ main nav a.active {
 main section {
   padding-top: 45px;
 }
-
 /* 반응형 */
-
 @media screen and (min-width: 665px) {
   .header-center {
     justify-content: center;
   }
-
   .header-center input {
     display: block;
     padding: 10px 20px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border: 1px solid #ddd;
-    width: 100%;
+    width: 30%;
     max-width: 500px;
   }
   .header-center button {
@@ -108,5 +103,20 @@ main section {
     padding: 6px 12px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 880px) {
+  main aside {
+    display: block;
+  }
+  main .main-content {
+    padding-left: 55px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .header-center input {
+    width: 90%;
   }
 }

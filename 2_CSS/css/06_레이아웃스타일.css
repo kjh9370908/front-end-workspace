@@ -89,11 +89,11 @@
   float: right;
 }
 /*
-      position: static (기본값), relative, absolute, fixed
-      - relative : 현재 위치에서 배치
-      - absolute : 부모 위치에서 배치
-      - fixed : 원하는 위치에 고정하여 배치
-  */
+    position: static (기본값), relative, absolute, fixed
+    - relative : 현재 위치에서 배치
+    - absolute : 부모 위치에서 배치
+    - fixed : 원하는 위치에 고정하여 배치
+*/
 #outer {
   position: relative;
   width: 300px;
@@ -132,10 +132,10 @@
 }
 #vis1 {
   /*
-          visibility: hidden / display : none
-          -> 둘 다 화면에서 보여지지 않는 건 같지만
-             display: none; 은 영역 조차 없어진다.
-      */
+        visibility: hidden / display : none
+        -> 둘 다 화면에서 보여지지 않는 건 같지만
+           display: none; 은 영역 조차 없어진다.
+    */
   /* visibility: hidden; */
   display: none;
   background-color: beige;
